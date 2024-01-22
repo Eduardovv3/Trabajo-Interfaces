@@ -45,6 +45,10 @@ export const ComponentsRoutes: Routes = [
 			{
 				path: 'buttons',
 				component: NgbdButtonsComponent
+			},
+			{
+				path: 'compras',
+				component: NgbdButtonsComponent
 			}
 		]
 	}

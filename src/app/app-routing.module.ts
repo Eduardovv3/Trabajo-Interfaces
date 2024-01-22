@@ -20,6 +20,10 @@ export const Approutes: Routes = [
       {
         path: 'component',
         loadChildren: () => import('./component/component.module').then(m => m.ComponentsModule)
+      },
+      {
+        path: 'compras',
+        loadChildren: () => import('./compras/compras.module').then(m => m.ComprasModule)
       }
     ]
   },
