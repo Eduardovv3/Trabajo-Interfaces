@@ -6,7 +6,7 @@ export const ROUTES: RouteInfo[] = [
 
   {
     path: '/compras',
-    title: 'compras',
+    title: 'Compras',
     icon: 'bi bi-bag',
     class: '',
     extralink: false,
