@@ -47,7 +47,7 @@ export const ComponentsRoutes: Routes = [
 				component: NgbdButtonsComponent
 			},
 			{
-				path: 'compras',
+				path: 'Compras',
 				component: NgbdButtonsComponent
 			}
 		]

@@ -4,7 +4,7 @@ import {
   CommonModule, LocationStrategy,
   PathLocationStrategy
 } from '@angular/common';
-import { NgModule } from '@angular/core';
+import { NgModule, isDevMode } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { Routes, RouterModule } from '@angular/router';
@@ -36,7 +36,7 @@ import { LayoutComponent } from './layouts/full/layout.component';
     RouterModule.forRoot(Approutes, { useHash: false }),
     LayoutComponent,
     NavigationComponent,
-    SidebarComponent,
+    SidebarComponent
   ],
   providers: [
     {
