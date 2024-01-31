@@ -5,7 +5,7 @@ import { NavBar, navBars } from './navBar-data';
   selector: 'app-nav-bar',
   templateUrl: './navBar.component.html'
 })
-export class NavBarComponents implements OnInit {
+export class NavBarComponent implements OnInit {
 
   NavBars:NavBar[];
 

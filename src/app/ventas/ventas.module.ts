@@ -7,7 +7,7 @@ import { SalesRatioComponent } from "./ventas-components/sales-ratio/sales-ratio
 import { FeedsComponent } from "./ventas-components/feeds/feeds.component";
 import { TopSellingComponent } from "./ventas-components/top-selling/top-selling.component";
 import { TopCardsComponent } from "./ventas-components/top-cards/top-cards.component";
-import { NavBarComponents } from "./ventas-components/navBar/navBar.component";
+import { NavBarComponent } from "./ventas-components/navBar/navBar.component";
 import { VentasComponent } from "./ventas.component";
 import { FormComponent } from "./ventas-components/form/form.component";
 
@@ -38,7 +38,7 @@ const routes: Routes = [
     TopSellingComponent,
     TopCardsComponent,
     FormComponent,
-    NavBarComponents
+    NavBarComponent
   ],
 })
 export class VentasModule {}

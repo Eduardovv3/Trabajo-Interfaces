@@ -8,8 +8,8 @@ import { FeedsComponent } from "./compras-components/feeds/feeds.component";
 import { TopSellingComponent } from "./compras-components/top-selling/top-selling.component";
 import { TopCardsComponent } from "./compras-components/top-cards/top-cards.component";
 import { BlogCardsComponent } from "./compras-components/blog-cards/blog-cards.component";
-import { NavBarComponents } from "./compras-components/navBar/navBar.component";
 import { ComprasComponent } from "./compras.component";
+import { NavBarComponent } from "./compras-components/navBar/navBar.component";
 
 
 const routes: Routes = [
@@ -38,7 +38,7 @@ const routes: Routes = [
     TopSellingComponent,
     TopCardsComponent,
     BlogCardsComponent,
-    NavBarComponents
+    NavBarComponent
   ],
 })
 export class ComprasModule {}
