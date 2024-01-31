@@ -11,10 +11,10 @@ import { SidebarComponent } from "src/app/shared/sidebar/sidebar.component";
   selector: "app-full-layout",
   standalone: true,
   imports:[RouterModule, SidebarComponent, NavigationComponent, CommonModule, NgbCollapseModule],
-  templateUrl: "./full.component.html",
-  styleUrls: ["./full.component.scss"],
+  templateUrl: "./layout.component.html",
+  styleUrls: ["./layout.component.scss"],
 })
-export class FullComponent implements OnInit {
+export class LayoutComponent implements OnInit {
 
   constructor(public router: Router) {}
   public isCollapsed = false;
