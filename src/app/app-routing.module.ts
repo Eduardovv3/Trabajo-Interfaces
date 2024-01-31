@@ -28,6 +28,10 @@ export const Approutes: Routes = [
       {
         path: 'Compras',
         loadChildren: () => import('./compras/compras.module').then(m => m.ComprasModule)
+      },
+      {
+        path: 'ventas',
+        loadChildren: () => import('./ventas/ventas.module').then(m => m.VentasModule)
       }
     ]
   },

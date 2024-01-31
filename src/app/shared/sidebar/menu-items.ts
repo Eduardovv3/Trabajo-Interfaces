@@ -13,6 +13,14 @@ export const ROUTES: RouteInfo[] = [
     submenu: []
   },
   {
+    path: '/ventas',
+    title: 'Ventas',
+    icon: 'bi bi-bag',
+    class: '',
+    extralink: false,
+    submenu: []
+  },
+  {
     path: '/dashboard',
     title: 'Dashboard',
     icon: 'bi bi-speedometer2',

@@ -4,7 +4,7 @@ import {
   CommonModule, LocationStrategy,
   PathLocationStrategy
 } from '@angular/common';
-import { NgModule } from '@angular/core';
+import { NgModule, isDevMode } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { Routes, RouterModule } from '@angular/router';
@@ -37,7 +37,7 @@ import { SpinnerComponent } from './shared/spinner.component';
     RouterModule.forRoot(Approutes, { useHash: false }),
     FullComponent,
     NavigationComponent,
-    SidebarComponent,
+    SidebarComponent
   ],
   providers: [
     {
