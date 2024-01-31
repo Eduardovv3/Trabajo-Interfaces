@@ -7,19 +7,19 @@ import { AboutComponent } from '../about/about.component';
 // import { ComponentComponent } from '../component/component.component';
 
 const routes: Routes = [
-  {
-    path: '',
-    component: DashboardComponent,
-    children: [
-      { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
-      { path: 'compras', component: ComprasComponent },
-      { path: 'ventas', component: VentasComponent },
-      // { path: 'component', component: ComponentComponent },
-      { path: 'about', component: AboutComponent },
+  // {
+  //   path: '',
+  //   component: DashboardComponent,
+  //   children: [
+  //     { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
+  //     { path: 'compras', component: ComprasComponent },
+  //     { path: 'ventas', component: VentasComponent },
+  //     // { path: 'component', component: ComponentComponent },
+  //     { path: 'about', component: AboutComponent },
       
-      { path: '**', redirectTo: 'error/404' },
-    ],
-  },
+  //     { path: '**', redirectTo: 'error/404' },
+  //   ],
+  // },
 ];
 
 @NgModule({
