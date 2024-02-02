@@ -17,6 +17,7 @@ import { NavBarComponent } from 'src/app/ventas/ventas-components/navBar/navBar.
 import { FormComponent } from 'src/app/ventas/ventas-components/form/form.component';
 import { VentasComponent } from 'src/app/ventas/ventas.component';
 import { CarCardComponent } from 'src/app/dashboard/dashboard-components/car-card/car-card.component';
+import { MarcasComponent } from 'src/app/dashboard/dashboard-components/marcas/marcas.component';
 @NgModule({
   imports: [LayoutRoutingModule, HttpClientModule, AngularSvgIconModule.forRoot(),
 
@@ -36,7 +37,8 @@ import { CarCardComponent } from 'src/app/dashboard/dashboard-components/car-car
     VentasComponent,
     NavBarComponent,
     FormComponent,
-    CarCardComponent
+    CarCardComponent,
+    MarcasComponent
   ],
 })
 export class LayoutModule {}
