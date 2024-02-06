@@ -19,6 +19,7 @@ import { Approutes } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SpinnerComponent } from './shared/spinner.component';
 import { LayoutComponent } from './layouts/full/layout.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,13 @@ import { LayoutComponent } from './layouts/full/layout.component';
     RouterModule.forRoot(Approutes, { useHash: false }),
     LayoutComponent,
     NavigationComponent,
-    SidebarComponent
+    SidebarComponent,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: !isDevMode(),
+      // Register the ServiceWorker as soon as the application is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    })
   ],
   providers: [
     {
