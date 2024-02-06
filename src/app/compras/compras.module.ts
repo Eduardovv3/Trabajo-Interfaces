@@ -10,6 +10,7 @@ import { TopCardsComponent } from "./compras-components/top-cards/top-cards.comp
 import { BlogCardsComponent } from "./compras-components/blog-cards/blog-cards.component";
 import { ComprasComponent } from "./compras.component";
 import { NavBarComponent } from "./compras-components/navBar/navBar.component";
+import { FilterComponent } from "./compras-components/filter/filter.component";
 
 
 const routes: Routes = [
@@ -38,7 +39,8 @@ const routes: Routes = [
     TopSellingComponent,
     TopCardsComponent,
     BlogCardsComponent,
-    NavBarComponent
+    NavBarComponent,
+    FilterComponent
   ],
 })
 export class ComprasModule {}
