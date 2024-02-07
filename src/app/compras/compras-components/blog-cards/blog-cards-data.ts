@@ -1,106 +1,140 @@
 export interface blogcard {
-    title: string,
-    subtitle: string,
-    subtext: string,
-    image: string
+    modelo: string,
+    marca: string,
+    color: string,
+    localidad: string,
+    image: string,
+    precio: string
 }
 
 export const blogcards: blogcard[] = [
 
     {
-        title: 'Coche 1',
-        subtitle: '2 comments, 1 Like',
-        subtext: 'Precio: ',
-        image: 'assets/images/bg/bg1.jpg'
+        modelo: 'Citroën C3',
+        marca: 'Citroën',
+        color: 'Azul',
+        localidad: 'Valencia',
+        image: '../../../../../assets/images/cars/citroen-c3.jpeg',
+        precio: '8750€'
     },
     {
-        title: 'Coche 2',
-        subtitle: '2 comments, 1 Like',
-        subtext: 'Precio: ',
-        image: 'assets/images/bg/bg2.jpg'
+        modelo: 'Porsche Cayenne',
+        marca: 'Porsche',
+        color: 'Azul',
+        localidad: 'Valencia',
+        image: '../../../../../assets/images/cars/porsche-cayenne.webp',
+        precio: '103.369€'
     },
     {
-        title: 'Coche 3',
-        subtitle: '2 comments, 1 Like',
-        subtext: 'Precio: ',
-        image: 'assets/images/bg/bg3.jpg'
+        modelo: 'Fiat 600',
+        marca: 'Fiat',
+        color: 'Rojo',
+        localidad: 'Valencia',
+        image: '../../../../../assets/images/cars/fiat-600.jpg',
+        precio: '15€/día'
     },
     {
-        title: 'Coche 4',
-        subtitle: '2 comments, 1 Like',
-        subtext: 'Precio: ',
-        image: 'assets/images/bg/bg4.jpg'
+        modelo: 'Toyota Supra',
+        marca: 'Toyota',
+        color: 'Rojo',
+        localidad: 'Valencia',
+        image: '../../../../../assets/images/cars/toyota-supra-2jz.jpeg',
+        precio: '61.950€'
+    },  
+    {
+        modelo: 'Citroën C3',
+        marca: 'Citroën',
+        color: 'Azul',
+        localidad: 'Valencia',
+        image: '../../../../../assets/images/cars/citroen-c3.jpeg',
+        precio: '8750€'
     },
     {
-        title: 'Coche 5',
-        subtitle: '2 comments, 1 Like',
-        subtext: 'Precio: ',
-        image: 'assets/images/bg/bg1.jpg'
+        modelo: 'Porsche Cayenne',
+        marca: 'Porsche',
+        color: 'Azul',
+        localidad: 'Valencia',
+        image: '../../../../../assets/images/cars/porsche-cayenne.webp',
+        precio: '103.369€'
     },
     {
-        title: 'Coche 6',
-        subtitle: '2 comments, 1 Like',
-        subtext: 'Precio: ',
-        image: 'assets/images/bg/bg2.jpg'
+        modelo: 'Fiat 600',
+        marca: 'Fiat',
+        color: 'Rojo',
+        localidad: 'Valencia',
+        image: '../../../../../assets/images/cars/fiat-600.jpg',
+        precio: '15€/día'
     },
     {
-        title: 'Coche 7',
-        subtitle: '2 comments, 1 Like',
-        subtext: 'Precio: ',
-        image: 'assets/images/bg/bg3.jpg'
+        modelo: 'Toyota Supra',
+        marca: 'Toyota',
+        color: 'Rojo',
+        localidad: 'Valencia',
+        image: '../../../../../assets/images/cars/toyota-supra-2jz.jpeg',
+        precio: '61.950€'
     },
     {
-        title: 'Coche 8',
-        subtitle: '2 comments, 1 Like',
-        subtext: 'Precio: ',
-        image: 'assets/images/bg/bg4.jpg'
+        modelo: 'Citroën C3',
+        marca: 'Citroën',
+        color: 'Azul',
+        localidad: 'Valencia',
+        image: '../../../../../assets/images/cars/citroen-c3.jpeg',
+        precio: '8750€'
     },
     {
-        title: 'Coche 9',
-        subtitle: '2 comments, 1 Like',
-        subtext: 'Precio: ',
-        image: 'assets/images/bg/bg1.jpg'
+        modelo: 'Porsche Cayenne',
+        marca: 'Porsche',
+        color: 'Azul',
+        localidad: 'Valencia',
+        image: '../../../../../assets/images/cars/porsche-cayenne.webp',
+        precio: '103.369€'
     },
     {
-        title: 'Coche 10',
-        subtitle: '2 comments, 1 Like',
-        subtext: 'Precio: ',
-        image: 'assets/images/bg/bg2.jpg'
+        modelo: 'Fiat 600',
+        marca: 'Fiat',
+        color: 'Rojo',
+        localidad: 'Valencia',
+        image: '../../../../../assets/images/cars/fiat-600.jpg',
+        precio: '15€/día'
     },
     {
-        title: 'Coche 11',
-        subtitle: '2 comments, 1 Like',
-        subtext: 'Precio: ',
-        image: 'assets/images/bg/bg3.jpg'
+        modelo: 'Toyota Supra',
+        marca: 'Toyota',
+        color: 'Rojo',
+        localidad: 'Valencia',
+        image: '../../../../../assets/images/cars/toyota-supra-2jz.jpeg',
+        precio: '61.950€'
     },
     {
-        title: 'Coche 12',
-        subtitle: '2 comments, 1 Like',
-        subtext: 'Precio: ',
-        image: 'assets/images/bg/bg4.jpg'
+        modelo: 'Citroën C3',
+        marca: 'Citroën',
+        color: 'Azul',
+        localidad: 'Valencia',
+        image: '../../../../../assets/images/cars/citroen-c3.jpeg',
+        precio: '8750€'
     },
     {
-        title: 'Coche 13',
-        subtitle: '2 comments, 1 Like',
-        subtext: 'Precio: ',
-        image: 'assets/images/bg/bg1.jpg'
+        modelo: 'Porsche Cayenne',
+        marca: 'Porsche',
+        color: 'Azul',
+        localidad: 'Valencia',
+        image: '../../../../../assets/images/cars/porsche-cayenne.webp',
+        precio: '103.369€'
     },
     {
-        title: 'Coche 14',
-        subtitle: '2 comments, 1 Like',
-        subtext: 'Precio: ',
-        image: 'assets/images/bg/bg2.jpg'
+        modelo: 'Fiat 600',
+        marca: 'Fiat',
+        color: 'Rojo',
+        localidad: 'Valencia',
+        image: '../../../../../assets/images/cars/fiat-600.jpg',
+        precio: '15€/día'
     },
     {
-        title: 'Coche 15',
-        subtitle: '2 comments, 1 Like',
-        subtext: 'Precio: ',
-        image: 'assets/images/bg/bg3.jpg'
-    },
-    {
-        title: 'Coche 16',
-        subtitle: '2 comments, 1 Like',
-        subtext: 'Precio: ',
-        image: 'assets/images/bg/bg4.jpg'
+        modelo: 'Toyota Supra',
+        marca: 'Toyota',
+        color: 'Rojo',
+        localidad: 'Valencia',
+        image: '../../../../../assets/images/cars/toyota-supra-2jz.jpeg',
+        precio: '61.950€'
     },
 ] 

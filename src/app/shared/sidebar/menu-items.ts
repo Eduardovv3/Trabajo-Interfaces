@@ -21,7 +21,7 @@ export const ROUTES: RouteInfo[] = [
   },
   {
     path: '/ventas',
-    title: 'Ventas',
+    title: 'Vender tu coche',
     icon: 'bi bi-bag',
     class: '',
     extralink: false,
