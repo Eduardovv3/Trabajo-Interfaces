@@ -31,7 +31,7 @@ export const blogcards: blogcard[] = [
         color: 'Rojo',
         localidad: 'Valencia',
         image: '../../../../../assets/images/cars/fiat-600.jpg',
-        precio: '15€/día'
+        precio: '3780€'
     },
     {
         modelo: 'Toyota Supra',
@@ -63,7 +63,7 @@ export const blogcards: blogcard[] = [
         color: 'Rojo',
         localidad: 'Valencia',
         image: '../../../../../assets/images/cars/fiat-600.jpg',
-        precio: '15€/día'
+        precio: '3780€'
     },
     {
         modelo: 'Toyota Supra',
@@ -95,7 +95,7 @@ export const blogcards: blogcard[] = [
         color: 'Rojo',
         localidad: 'Valencia',
         image: '../../../../../assets/images/cars/fiat-600.jpg',
-        precio: '15€/día'
+        precio: '3780€'
     },
     {
         modelo: 'Toyota Supra',
@@ -127,7 +127,7 @@ export const blogcards: blogcard[] = [
         color: 'Rojo',
         localidad: 'Valencia',
         image: '../../../../../assets/images/cars/fiat-600.jpg',
-        precio: '15€/día'
+        precio: '3780€'
     },
     {
         modelo: 'Toyota Supra',
