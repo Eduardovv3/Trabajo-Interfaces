@@ -49,7 +49,7 @@ export const ComponentsRoutes: Routes = [
 			{
 				path: 'Compras',
 				component: NgbdButtonsComponent
-			}
+			},
 		]
 	}
 ];

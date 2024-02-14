@@ -21,8 +21,16 @@ export const ROUTES: RouteInfo[] = [
   },
   {
     path: '/ventas',
-    title: 'Vender tu coche',
-    icon: 'bi bi-bag',
+    title: 'Vende tu coche',
+    icon: 'bi bi-cash-coin',
+    class: '',
+    extralink: false,
+    submenu: []
+  },
+  {
+    path: '/alquiler',
+    title: 'Alquilar',
+    icon: 'bi bi-send-check',
     class: '',
     extralink: false,
     submenu: []
