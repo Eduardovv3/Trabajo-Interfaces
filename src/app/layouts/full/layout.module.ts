@@ -19,6 +19,7 @@ import { VentasComponent } from 'src/app/ventas/ventas.component';
 import { CarCardComponent } from 'src/app/dashboard/dashboard-components/car-card/car-card.component';
 import { MarcasComponent } from 'src/app/dashboard/dashboard-components/marcas/marcas.component';
 import { FilterComponent } from 'src/app/compras/compras-components/filter/filter.component';
+import { AlquilerComponent } from 'src/app/alquiler/alquiler.component';
 @NgModule({
   imports: [LayoutRoutingModule, HttpClientModule, AngularSvgIconModule.forRoot(),
 
@@ -40,7 +41,8 @@ import { FilterComponent } from 'src/app/compras/compras-components/filter/filte
     FilterComponent,
     FormComponent,
     CarCardComponent,
-    MarcasComponent
+    MarcasComponent,
+    AlquilerComponent
   ],
 })
 export class LayoutModule {}

@@ -42,5 +42,4 @@ export const carcards: carcard[] = [
         precio: '30€/día'
     }
 
-
 ] 

@@ -6,6 +6,7 @@ import { VentasComponent } from 'src/app/ventas/ventas.component';
 // import { ComponentComponent } from 'src/app/component/component.component';
 import { AboutComponent } from 'src/app/about/about.component';
 import { DashboardComponent } from 'src/app/dashboard/dashboard.component';
+import { AlquilerComponent } from 'src/app/alquiler/alquiler.component';
 
 const routes: Routes = [
   // {
@@ -21,6 +22,7 @@ const routes: Routes = [
       { path: 'dashboard', component: DashboardComponent },
       { path: 'compras', component: ComprasComponent },
       { path: 'ventas', component: VentasComponent },
+      { path: 'alquiler', component: AlquilerComponent },
       // { path: 'component', component: ComponentComponent },
       { path: 'about', component: AboutComponent },
       
