@@ -40,5 +40,101 @@ export const blogcards: blogcard[] = [
         localidad: 'Valencia',
         image: '../../../../../assets/images/cars/toyota-supra-2jz.jpeg',
         precio: '61.950€'
-    }
+    },  
+    {
+        modelo: 'Citroën C3',
+        marca: 'Citroën',
+        color: 'Azul',
+        localidad: 'Valencia',
+        image: '../../../../../assets/images/cars/citroen-c3.jpeg',
+        precio: '8750€'
+    },
+    {
+        modelo: 'Porsche Cayenne',
+        marca: 'Porsche',
+        color: 'Azul',
+        localidad: 'Valencia',
+        image: '../../../../../assets/images/cars/porsche-cayenne.webp',
+        precio: '103.369€'
+    },
+    {
+        modelo: 'Fiat 600',
+        marca: 'Fiat',
+        color: 'Rojo',
+        localidad: 'Valencia',
+        image: '../../../../../assets/images/cars/fiat-600.jpg',
+        precio: '3780€'
+    },
+    {
+        modelo: 'Toyota Supra',
+        marca: 'Toyota',
+        color: 'Rojo',
+        localidad: 'Valencia',
+        image: '../../../../../assets/images/cars/toyota-supra-2jz.jpeg',
+        precio: '61.950€'
+    },
+    {
+        modelo: 'Citroën C3',
+        marca: 'Citroën',
+        color: 'Azul',
+        localidad: 'Valencia',
+        image: '../../../../../assets/images/cars/citroen-c3.jpeg',
+        precio: '8750€'
+    },
+    {
+        modelo: 'Porsche Cayenne',
+        marca: 'Porsche',
+        color: 'Azul',
+        localidad: 'Valencia',
+        image: '../../../../../assets/images/cars/porsche-cayenne.webp',
+        precio: '103.369€'
+    },
+    {
+        modelo: 'Fiat 600',
+        marca: 'Fiat',
+        color: 'Rojo',
+        localidad: 'Valencia',
+        image: '../../../../../assets/images/cars/fiat-600.jpg',
+        precio: '3780€'
+    },
+    {
+        modelo: 'Toyota Supra',
+        marca: 'Toyota',
+        color: 'Rojo',
+        localidad: 'Valencia',
+        image: '../../../../../assets/images/cars/toyota-supra-2jz.jpeg',
+        precio: '61.950€'
+    },
+    {
+        modelo: 'Citroën C3',
+        marca: 'Citroën',
+        color: 'Azul',
+        localidad: 'Valencia',
+        image: '../../../../../assets/images/cars/citroen-c3.jpeg',
+        precio: '8750€'
+    },
+    {
+        modelo: 'Porsche Cayenne',
+        marca: 'Porsche',
+        color: 'Azul',
+        localidad: 'Valencia',
+        image: '../../../../../assets/images/cars/porsche-cayenne.webp',
+        precio: '103.369€'
+    },
+    {
+        modelo: 'Fiat 600',
+        marca: 'Fiat',
+        color: 'Rojo',
+        localidad: 'Valencia',
+        image: '../../../../../assets/images/cars/fiat-600.jpg',
+        precio: '3780€'
+    },
+    {
+        modelo: 'Toyota Supra',
+        marca: 'Toyota',
+        color: 'Rojo',
+        localidad: 'Valencia',
+        image: '../../../../../assets/images/cars/toyota-supra-2jz.jpeg',
+        precio: '61.950€'
+    },
 ] 
